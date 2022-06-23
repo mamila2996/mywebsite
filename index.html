@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MB</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark p-md-3">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 mt-0" href="#">
+          <img src="images/my-logo.jpg" alt="mblogo" width="75px" />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-target="#navbarNav"
+          data-bs-toggle="collapse"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Hire me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"
+                ><i class="bi bi-telegram"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="background-img w-100 min-vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div
+        class="content-txt w-50 d-flex justify-content-center align-items-center"
+      >
+        <div class="">
+        <h1 class="text-white display-1">Muhammed</h1>
+        <h1 class="text-white display-1">Berisso</h1>
+        <p class="text-white display-6">Graphic Designer and</p> 
+        <p class="text-white display-6">Web Developer</p>  
+        <hr class="lineh">
+        <button class="btn btn-primary">hire me</button>
+
+        </div>
+      </div>
+      <div class="content-img w-50 d-flex justify-content-center">
+        <img class="img-responsive img-circle" src="images/home.JPG" alt="homeimage">
+      </div>
+    </div>
+    <div class="d-grid m-5 gap-5">
+      <div class="p-5 border">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam
+          tempora aperiam at placeat ipsam. Repudiandae deleniti saepe
+          voluptatum, suscipit, minima delectus sed iure eaque enim eius unde
+          vel accusamus?
+        </p>
+      </div>
+      <div class="p-5 border">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam
+          tempora aperiam at placeat ipsam. Repudiandae deleniti saepe
+          voluptatum, suscipit, minima delectus sed iure eaque enim eius unde
+          vel accusamus?
+        </p>
+      </div>
+      <div class="p-5 border">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam
+          tempora aperiam at placeat ipsam. Repudiandae deleniti saepe
+          voluptatum, suscipit, minima delectus sed iure eaque enim eius unde
+          vel accusamus?
+        </p>
+      </div>
+      <div class="p-5 border">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam
+          tempora aperiam at placeat ipsam. Repudiandae deleniti saepe
+          voluptatum, suscipit, minima delectus sed iure eaque enim eius unde
+          vel accusamus?
+        </p>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script>
+      var nav = document.querySelector("nav");
+      window.addEventListener("scroll", function () {
+        if (pageYOffset > 100) {
+          nav.classList.add("bg-dark", "shadow");
+        } else {
+          nav.classList.remove("bg-dark", "shadow");
+        }
+      });
+    </script>
+  </body>
+</html>

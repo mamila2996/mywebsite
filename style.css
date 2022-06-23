@@ -1,0 +1,25 @@
+.background-img {
+  background-image: url("images/bg3.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav{
+  height: 50px;
+}
+.content-txt div{
+  height: 400px;
+  width: 75%;
+}
+.content-txt div hr{
+    height: 7px;
+    width: 35px;
+    background-color: yellow;
+
+}
+.content-img{
+ opacity: 0.3;
+ height: 100%;
+}
